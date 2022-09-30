@@ -1,0 +1,65 @@
+#buttons {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.button {
+    margin: 10px;
+}
+
+
+#container{
+    display: flex;
+    flex:   1;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid{
+    align-self: center;
+    height: 600px;
+    width: 600px;
+    outline: solid black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.small-box {
+    float:  left;
+    width: 37.5px;
+    height: 37.5px;
+    outline: 1px solid pink;
+
+}
+
+.medium-box {
+    height: 18.75px;
+    width: 18.755px;
+    float: left;
+    outline: 1px solid pink;
+  }
+
+.large-box {
+height: 9.375px;
+width: 9.375px;
+float: left;
+outline: 1px solid pink;
+}
+
+.blackBox {
+    color: black;
+}
+
+#bottom-buttons {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
